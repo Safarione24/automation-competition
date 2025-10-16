@@ -1,0 +1,20 @@
+# Поиск элементов
+element = driver.find_element(By.ID, "message")           # По ID
+element = driver.find_element(By.NAME, "username")        # По имени
+element = driver.find_element(By.CLASS_NAME, "form")      # По классу
+element = driver.find_element(By.CSS_SELECTOR, ".input-field") # По CSS
+element = driver.find_element(By.XPATH, "//button[@type='submit']") # По XPath
+
+# Действия с элементами
+element.click()           # Клик
+element.send_keys("text") # Ввод текста
+element.clear()           # Очистить поле
+element.text              # Получить текст элемента
+
+# Основные методы браузера
+driver.current_url        # Текущий URL
+driver.title              # Заголовок страницы
+driver.back()             # Назад
+driver.forward()          # Вперед
+driver.refresh()          # Обновить страницу
+driver.quit()             # Закрыть браузер
