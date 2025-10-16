@@ -15,4 +15,4 @@
 
 ## Challenges
 - Click Events: iframe context switching problems
-- Learning POM architecture during competition
+- Learning POM architecture during competition" " 
